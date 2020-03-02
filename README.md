@@ -4,7 +4,7 @@ Kubernetes configuration yaml files used in FFC clusters.
 
 ## Priority Classes
 
-Priority classes help kubernetes understand which resources it would shut down in the event that it's over utilized.
+Priority classes help kubernetes understand which resources it would shut down in the event that it's over utilised.
 
 Without Priority classes a default value of 0 is given and they would be the first closed during preemption.
 
