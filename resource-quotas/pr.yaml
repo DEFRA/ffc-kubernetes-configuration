@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: pr
+spec:
+  hard:
+    requests.cpu: 100Mi
+    requests.memory: 100m
+    limits.cpu: 200Mi
+    limits.memory: 200m
