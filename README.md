@@ -28,6 +28,7 @@ environment: production
 labels:
   instance:
   version: 1.0.0
+  component: ffc-demo
 
 resourceQuota:
   requestCpu: "1"
