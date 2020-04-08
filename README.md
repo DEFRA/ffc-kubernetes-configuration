@@ -43,6 +43,13 @@ kubectl create namespace ffc-demo
 helm upgrade --install --atomic ffc-demo ./helm/ffc-workstream
 ```
 
+The namespace can be removed with the following commands:
+
+```
+kubectl uninstall ffc-demo
+kubectl delete namespace ffc-demo
+```
+
 ## General Configuration
 
 ### Priority Classes
