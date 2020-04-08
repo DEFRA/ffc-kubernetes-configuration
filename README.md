@@ -40,13 +40,13 @@ The chart can be applied to a cluster with the following commands, replacing `ff
 
 ```
 kubectl create namespace ffc-demo
-helm upgrade --install --atomic ffc-demo ./helm/ffc-workstream
+helm upgrade --install --atomic --namespace ffc-demo ffc-demo ./helm/ffc-workstream
 ```
 
 The namespace can be removed with the following commands:
 
 ```
-kubectl uninstall ffc-demo
+kubectl uninstall --namespace ffc-demo
 kubectl delete namespace ffc-demo
 ```
 
