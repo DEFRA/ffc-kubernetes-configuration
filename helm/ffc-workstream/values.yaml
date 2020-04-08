@@ -1,0 +1,14 @@
+name: ffc-demo
+namespace: ffc-demo
+workstream: ffc-demo
+environment: production
+
+labels:
+  instance:
+  version: 1.0.0
+
+resourceQuota:
+  requestCpu: "1"
+  requestMemory: 1Gi
+  limitCpu: "2"
+  limitMemory: 2Gi

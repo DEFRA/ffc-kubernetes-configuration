@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: {{ required "name required" .Values.name }}
+spec:
+  hard:
+    requests.cpu: {{ required "request cpu required" .Values.resourceQuota.requestCpu }}
+    requests.memory: {{ required "request memory required" .Values.resourceQuota.requestMemory }}
+    limits.cpu: {{ required "limit cpu required" .Values.resourceQuota.limitCpu }}
+    limits.memory: {{ required "limit memory required" .Values.resourceQuota.limitMemory }}
