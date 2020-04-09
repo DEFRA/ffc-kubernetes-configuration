@@ -47,7 +47,7 @@ helm upgrade --install --atomic --namespace ffc-demo ffc-demo ./helm/ffc-workstr
 The namespace can be removed with the following commands:
 
 ```
-kubectl uninstall --namespace ffc-demo
+kubectl uninstall ffc-demo --namespace ffc-demo
 kubectl delete namespace ffc-demo
 ```
 
