@@ -15,7 +15,7 @@ resourceQuota:
   limitMemory: 2Gi
 
 limitRange:
-  defaultRequestCpu: "0.1"
-  defaultRequestMemory: 128Mi
-  defaultLimitCpu: "0.5"
-  defaultLimitMemory: 1Gi
+  defaultRequestCpu: 60m
+  defaultRequestMemory: 80Mi
+  defaultLimitCpu: 60m
+  defaultLimitMemory: 80Mi
