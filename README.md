@@ -31,9 +31,9 @@ labels:
   component: configuration
 
 resourceQuota:
-  requestCpu: "1"
+  requestCpu: 2000m
   requestMemory: 1Gi
-  limitCpu: "2"
+  limitCpu: 2000m
   limitMemory: 2Gi
 ```
 
