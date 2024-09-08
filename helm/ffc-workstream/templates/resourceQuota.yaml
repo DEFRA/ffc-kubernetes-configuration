@@ -6,7 +6,5 @@ metadata:
   labels: {{- include "ffc-helm-library.labels" . | nindent 4 }}
 spec:
   hard:
-    requests.cpu: {{ required "request cpu required" .Values.resourceQuota.requestCpu }}
-    requests.memory: {{ required "request memory required" .Values.resourceQuota.requestMemory }}
-    limits.cpu: {{ required "limit cpu required" .Values.resourceQuota.limitCpu }}
-    limits.memory: {{ required "limit memory required" .Values.resourceQuota.limitMemory }}
+    cpu: {{ required "request cpu required" .Values.resourceQuota.requestCpu }}
+    memory: {{ required "request memory required" .Values.resourceQuota.requestMemory }}
