@@ -1,6 +1,6 @@
-# FFC Kubernetes Configuration
+# FCP  Kubernetes Configuration
 
-Kubernetes configuration yaml files used in FFC clusters.
+Kubernetes configuration yaml files used in FCP clusters.
 
 ## Helm Charts
 
@@ -14,7 +14,7 @@ Includes:
 - Role Binding
 
 #### Usage
-This Helm chart uses the [FFC Helm Library](https://github.com/DEFRA/ffc-helm-library).
+This Helm chart uses the [FCP Helm Library](https://github.com/DEFRA/ffc-helm-library).
 
 The chart's `values.yaml` contains example values that must be overriden with during helm install/upgrade commands to successfully create namespace resources.
 

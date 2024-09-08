@@ -1,3 +1,0 @@
-{{- include "ffc-helm-library.role-binding" (list . "ffc-workstream-namespace.role-binding") -}}
-{{- define "ffc-workstream-namespace.role-binding" -}}
-{{- end -}}
