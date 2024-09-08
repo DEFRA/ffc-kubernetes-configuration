@@ -11,8 +11,6 @@ labels:
 resourceQuota:
   requestCpu: 2000m
   requestMemory: 1Gi
-  limitCpu: 2000m
-  limitMemory: 2Gi
 
 limitRange:
   defaultRequestCpu: 1m
